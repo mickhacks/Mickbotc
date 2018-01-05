@@ -17,7 +17,7 @@ client.on('message', message => {
     	message.reply('BONG!');
   	}
     
-    bot.user.setGame('Mickje <3')
+    bot.user.setPresence({ game: { name: 'Mickje', type: 0 } });
     
 });
 
