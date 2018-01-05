@@ -5,6 +5,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 
 bot.user.setPresence({ game: { name: 'Ik hou van Mickje', type: 0 } });
+    
 });
 
 client.on('message', message => {
