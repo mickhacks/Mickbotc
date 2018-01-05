@@ -3,7 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    
 });
 
 client.on('message', message => {
@@ -16,9 +15,6 @@ client.on('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
-    
-    bot.user.setPresence({ game: { name: 'Mickje', type: 0 } });
-    
 });
 
 // THIS  MUST  BE  THIS  WAY
