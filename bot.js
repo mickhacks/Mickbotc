@@ -3,8 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-
-bot.user.setPresence({ game: { name: 'Ik hou van Mickje', type: 0 } });
     
 });
 
@@ -18,6 +16,9 @@ client.on('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
+    
+    bot.user.setPresence({ game: { name: 'Ik hou van Mickje', type: 0 } });
+    
 });
 
 // THIS  MUST  BE  THIS  WAY
