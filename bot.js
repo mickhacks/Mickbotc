@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'jorian') {
-    	message.channel.send('lik me kutje ;)');
+    	message.channel.send('heeft een geile piemel ;)');
   	}
 });
 
