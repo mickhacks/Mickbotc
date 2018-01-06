@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'spiegeltje spiegeltje aan de wal kan je Rocket League?') {
-    	message.channel.send('Oh daar heb je Mick weer met je rocket league pff sukkel');
+    if (message.content === ('Heb ik een lange piemel?') {
+    	message.channel.send('XXL condooms zijn besteld ;)');
   	}
 });
 
