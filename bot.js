@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Heb ik een lange piemel?') {
-    	message.channel.send('XXL condooms zijn besteld ;)');
+    if (message.content === 'Is sam gay?') {
+    	message.channel.send('Sam neukt met bellarino ;)');
   	}
 });
 
