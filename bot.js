@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'is jorian op zijn teentjes getikt?') {
-    	message.channel.send('Jorian pijpt zichzelf ;)');
+    if (message.content === 'Jorian is toch een slappe kip') {
+    	message.channel.send('Jorian is een dikke homo en als die dit verwijderd is die pussy... ;)');
   	}
 });
 
