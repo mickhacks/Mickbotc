@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'is mick gay??') {
+    if (message.content === 'is mick gay?') {
     	message.channel.send('Mick is a-seksueel ;)');
   	}
 });
