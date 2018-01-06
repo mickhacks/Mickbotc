@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'spiegeltje spiegeltje aan de wal kan @Zaanrico#3333 Rocket League?') {
+    if (message.content === 'spiegeltje spiegeltje aan de wal kan je Rocket League?') {
     	message.channel.send('Oh daar heb je Mick weer met je rocket league pff sukkel');
   	}
 });
