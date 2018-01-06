@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'is mick gay?') {
-    	message.channel.send('Mick is a-seksueel ;)');
+    if (message.content === 'is jorian op zijn teentjes getikt?') {
+    	message.channel.send('Jorian pijpt zichzelf ;)');
   	}
 });
 
