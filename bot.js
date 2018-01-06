@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'poef') {
-    	message.channel.send('!purge 5');
+    if (message.content === 'ping') {
+    	message.channel.send('pong');
   	}
 });
 
