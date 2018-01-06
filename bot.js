@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'oke') {
-    	message.channel.send('Tot u Dienst Jorian Piemeltje ;)');
+    if (message.content === 'jorian') {
+    	message.channel.send('lik me kutje ;)');
   	}
 });
 
