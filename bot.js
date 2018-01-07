@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'jorian') {
-    	message.channel.send('heeft een geile piemel ;)');
+    if (message.content === 'D') {
+    	message.channel.send('@Bananie31#3044 Nu kan je wat game-vrienden krijgen  ;)');
   	}
 });
 
