@@ -71,5 +71,89 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Oke') {
+    	message.reply('vagina');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Nice') {
+    	message.reply('wat nou nice lik een piemel');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'gvd') {
+    	message.reply('Niet schelden tering mens');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'haha') {
+    	message.reply('Je vind jezelf wel grappig he');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Haha') {
+    	message.reply('Je vind jezelf wel grappig he');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'hahaha') {
+    	message.reply('Je vind jezelf wel grappig he');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Hahaha') {
+    	message.reply('Je vind jezelf wel grappig he');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Gvd') {
+    	message.reply('Niet schelden tering mens');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Hoi') {
+    	message.reply('doei');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Thx') {
+    	message.reply('niks thx zoek een leven');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'xD') {
+    	message.reply('Land uit');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'xd') {
+    	message.reply('land uit');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'XD') {
+    	message.reply('land uit');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Xd') {
+    	message.reply('land uit');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
