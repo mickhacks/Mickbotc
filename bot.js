@@ -155,5 +155,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'sorry') {
+    	message.reply('slijmbal');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Sorry') {
+    	message.reply('slijmbal');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
