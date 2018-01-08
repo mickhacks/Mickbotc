@@ -191,5 +191,29 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Dankje') {
+    	message.channel.send('je moeder is een plankje');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'dankje') {
+    	message.channel.send('je moeder is een plankje');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'kut') {
+    	message.channel.send('Niet schelden godverdomme');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Help') {
+    	message.channel.send('schelp');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
