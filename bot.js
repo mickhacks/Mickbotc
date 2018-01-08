@@ -11,7 +11,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'tyfus') {
-    	message.channel.send('Niet schelden godverdomme');
+    	message.reply('Niet schelden godverdomme');
   	}
 });
 
@@ -23,49 +23,49 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'tering') {
-    	message.channel.send('Niet schelden godverdomme');
+    	message.reply('Niet schelden godverdomme');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'hoi') {
-    	message.channel.send('doei');
+    	message.reply('doei');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'yo') {
-    	message.channel.send('hey homo');
+    	message.reply('hey homo');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'hey') {
-    	message.channel.send('doei');
+    	message.reply('doei');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'oke') {
-    	message.channel.send('vagina');
+    	message.reply('vagina');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'nee') {
-    	message.channel.send('piemels likken');
+    	message.reply('piemels likken');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'thx') {
-    	message.channel.send('niks thx zoek een leven');
+    	message.reply('niks thx zoek een leven');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'nice') {
-    	message.channel.send('wat nou nice lik een piemel');
+    	message.reply('wat nou nice lik een piemel');
   	}
 });
 
