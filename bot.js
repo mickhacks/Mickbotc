@@ -173,5 +173,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'ja') {
+    	message.reply('alle tieners zeggen ja tegen MDMA');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Ja') {
+    	message.reply('alle tieners zeggen ja tegen MDMA');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
