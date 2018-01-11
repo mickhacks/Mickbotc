@@ -210,8 +210,20 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Help') {
-    	message.channel.send('schelp');
+    if (message.content === 'famke louise') {
+    	message.channel.send('Is een platvis');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Famke louise') {
+    	message.channel.send('Is een platvis');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Famke Louise') {
+    	message.channel.send('Is een platvis');
   	}
 });
 
